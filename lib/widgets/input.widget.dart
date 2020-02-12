@@ -26,7 +26,7 @@ class Input extends StatelessWidget {
           ),
         ),
         SizedBox(
-          width: 15,
+          width: 20,
         ),
         Expanded(
             child: TextFormField(
@@ -34,7 +34,7 @@ class Input extends StatelessWidget {
           keyboardType: TextInputType.number,
           style: TextStyle(
             color: Colors.white,
-            fontSize: 60,
+            fontSize: 50,
             fontFamily: "Big Shoulders Display",
           ),
           textAlign: TextAlign.center,

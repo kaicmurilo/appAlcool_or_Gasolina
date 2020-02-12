@@ -6,25 +6,25 @@ class Logo extends StatelessWidget {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 20,
+          height: 10,
         ),
         Image.asset(
           "assets/images/aog-white.png",
-          height: 70,
+          height: 50,
         ),
         SizedBox(
-          height: 20,
+          height: 10,
         ),
         Text(
           "Álcool ou Gasolina",
           style: TextStyle(
               color: Colors.white,
-              fontSize: 30,
+              fontSize: 25,
               fontFamily: "Big Shoulders Display"),
           textAlign: TextAlign.center,
         ),
         SizedBox(
-          height: 20,
+          height: 50,
         )
       ],
     );
